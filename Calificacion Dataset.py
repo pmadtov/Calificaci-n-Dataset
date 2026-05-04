@@ -3,7 +3,7 @@ import argparse
 import os
 
 def load_data(file_path):
-    "C:\Users\pablo\OneDrive\Prueba Python\gemini-code-1777416686152.txt"    
+    file_path = "day.csv    
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"No se encontró el archivo: {file_path}")
     
